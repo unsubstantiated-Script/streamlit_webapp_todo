@@ -8,7 +8,7 @@ def get_todos(file_path):
     return todos_list
 
 
-def write_todos(todos_list, file_path=FILEPATH):
+def write_todos(todos_list, file_path):
     """
     Write items to a text file.
     """
@@ -18,4 +18,4 @@ def write_todos(todos_list, file_path=FILEPATH):
 
 if __name__ == "__main__":
     print("Hello")
-    print(get_todos())
+
